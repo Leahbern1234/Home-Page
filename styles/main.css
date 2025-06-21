@@ -40,7 +40,7 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover, nav ul li .dropdown-content li a:hover {
+nav a:hover, nav ul li .dropdown-content li a:hover, nav a.active {
     text-decoration: underline;
 }
 
@@ -96,4 +96,29 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* About page specific styles */
+.about-intro, .about-me, .programming-languages, .hobbies {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.language-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.language-badges img {
+    height: 25px;
+}
+
+nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
 }
