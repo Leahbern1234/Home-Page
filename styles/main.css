@@ -122,3 +122,64 @@ nav a.active {
     text-decoration: underline;
     font-weight: bold;
 }
+
+/* Project pages styles */
+.projects-intro {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-tech {
+    margin-top: 15px;
+}
+
+.tech-badge {
+    background: #35424a;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    margin-right: 8px;
+}
+
+.project-links {
+    margin-top: 15px;
+}
+
+.project-btn {
+    background: #35424a;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.project-btn:hover {
+    background: #22313a;
+}
+
+.project-btn.secondary {
+    background: #666;
+}
+
+.project-btn.secondary:hover {
+    background: #555;
+}
